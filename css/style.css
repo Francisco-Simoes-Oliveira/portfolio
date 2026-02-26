@@ -106,6 +106,18 @@ body {
   flex-direction: column;
   text-align: left;
 }
+
+.hero-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+@media (min-width: 640px) {
+  .hero-actions {
+    flex-direction: row;
+  }
+}
+
 .hero-text span {
   display: inline-block;
   width: 18rem;
@@ -125,9 +137,23 @@ body {
   justify-content: center;
 }
 .hero img {
+  position: relative;
   width: 16rem;
   height: 20rem;
-  border: #e2e8f0, solid, transparent;
+  border: 0.5rem solid #e2e8f0;
+  border-radius: 10px;
+  z-index: 2;
+  box-shadow: 0 4px 9px #000;
+}
+.img-efeito {
+  position: absolute;
+  inset: 0;
+  background: var(--cp);
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.25;
+  pointer-events: none;
+  z-index: 1;
 }
 
 /*FOOTER*/
