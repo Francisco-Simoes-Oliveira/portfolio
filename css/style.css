@@ -174,35 +174,61 @@ main {
 /*CONTATO*/
 
 .contato {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 5rem;
-  margin-top: 3rem;
+  padding: 4rem 0;
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
 }
+
+.contato > div:first-child {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.contato > div:last-child {
+  max-width: 1280px;
+  margin: 4rem auto 0;
+  padding: 0 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
 .contato-actions-text {
   display: flex;
   flex-direction: column;
+  gap: 1rem;
 }
+
 .contato-actions-text h2 {
-  font-size: 2.25rem;
-  margin-bottom: -1rem;
+  font-size: 2.5rem;
+  margin: 0;
+  color: #0f172a;
 }
+
 .contato-actions-text p {
-  font-size: 1rem;
-  color: #475569;
+  font-size: 1.1rem;
+  color: #64748b;
+  margin: 0;
 }
 
 .contato-actions {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 2rem;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 .contato-actions-form {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .inputs-form {
@@ -210,51 +236,394 @@ main {
   flex-direction: column;
   width: 100%;
 }
+
 .inputs-form label {
-  font-size: 14px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 0.5rem;
 }
+
 .inputs-form input {
+  padding: 12px 14px;
   height: 49px;
-  border: 1px solid #e2e8f0;
+  border: 1.5px solid #e2e8f0;
   border-radius: 12px;
+  font-size: 0.95rem;
+  font-family: inherit;
+  transition: all 0.3s ease;
+  background: #fff;
 }
+
+.inputs-form input::placeholder {
+  color: #cbd5e1;
+}
+
 .inputs-form input:focus {
   outline: none;
-  border: 1px solid var(--cp);
+  border: 1.5px solid var(--cp);
+  box-shadow: 0 0 0 3px rgba(17, 82, 212, 0.1);
 }
-
-/* Input 
-
-box-sizing: border-box;
-
-/* Auto layout 
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: flex-start;
-padding: 14px 16px;
-
-width: 288.8px;
-height: 49px;
-
-background: #FFFFFF;
-border: 1px solid #E2E8F0;
-border-radius: 12px;
-
-/* Inside auto layout 
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;*/
 
 .inputs-prins {
   display: flex;
   flex-direction: row;
-  gap: 1rem;
-  justify-content: center;
+  gap: 1.5rem;
 }
+
+.bnt {
+  padding: 12px 24px;
+  height: 49px;
+  background-color: var(--cp);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit;
+}
+
+.bnt:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(17, 82, 212, 0.3);
+}
+
+.bnt:active {
+  transform: translateY(0);
+}
+
+/* Informações de Contato */
+
+.contato > div:last-child > div:first-child {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.contato > div:last-child > div:first-child h3 {
+  font-size: 1.5rem;
+  margin: 0 0 2rem 0;
+  color: #0f172a;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.contato > div:last-child > div:first-child > div {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  align-items: flex-start;
+}
+
+.contato > div:last-child > div:first-child img {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  opacity: 0.7;
+}
+
+.contato > div:last-child > div:first-child p {
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+.contato > div:last-child > div:first-child p:first-child {
+  font-weight: 700;
+  color: #1e293b;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.contato > div:last-child > div:first-child p:last-child {
+  color: #64748b;
+  margin-top: 0.25rem;
+}
+
+/* Redes Sociais */
+
+.contato > div:last-child > div:last-child {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contato > div:last-child > div:last-child p {
+  margin: 0;
+  font-size: 1rem;
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.contato > div:last-child > div:last-child nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.contato > div:last-child > div:last-child a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background: #f1f5f9;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.contato > div:last-child > div:last-child a:hover {
+  background: var(--cp);
+  border-color: var(--cp);
+  transform: translateY(-4px);
+}
+/*PROJETOS*/
+
+.projetos {
+  padding: 4rem 0;
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+}
+
+.projetos-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.projetos-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.projetos-header h2 {
+  font-size: 2.5rem;
+  margin: 0 0 1rem 0;
+  color: #0f172a;
+}
+
+.projetos-header p {
+  font-size: 1.1rem;
+  color: #64748b;
+  margin: 0;
+}
+
+.projetos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.projeto-card {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.projeto-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.projeto-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  background: #e2e8f0;
+}
+
+.projeto-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.projeto-card:hover .projeto-image img {
+  transform: scale(1.05);
+}
+
+.projeto-content {
+  padding: 1.5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.projeto-content h3 {
+  margin: 0 0 0.75rem 0;
+  font-size: 1.3rem;
+  color: #0f172a;
+}
+
+.projeto-content p {
+  margin: 0 0 1rem 0;
+  color: #64748b;
+  font-size: 0.95rem;
+  flex: 1;
+}
+
+.projeto-link {
+  color: var(--cp);
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.projeto-link:hover {
+  color: #0d3b99;
+}
+
+/*HABILIDADES*/
+
+.habilidades {
+  padding: 4rem 0;
+  background: #fff;
+}
+
+.habilidades-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.habilidades-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.habilidades-header h2 {
+  font-size: 2.5rem;
+  margin: 0 0 1rem 0;
+  color: #0f172a;
+}
+
+.habilidades-header p {
+  font-size: 1.1rem;
+  color: #64748b;
+  margin: 0;
+}
+
+.habilidades-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.habilidades-grupo {
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  padding: 2rem;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+}
+
+.habilidades-grupo h3 {
+  margin: 0 0 1.5rem 0;
+  font-size: 1.2rem;
+  color: #0f172a;
+}
+
+.habilidades-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.habilidade-item {
+  background: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 500;
+  color: #1e293b;
+  border: 1px solid #cbd5e1;
+  transition: all 0.2s ease;
+  cursor: default;
+}
+
+.habilidade-item:hover {
+  background: var(--cp);
+  color: #fff;
+  border-color: var(--cp);
+  transform: translateY(-2px);
+}
+
 /*FOOTER*/
 
 footer {
   height: 500px;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 768px) {
+  .hero-inner {
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 2rem;
+  }
+
+  .hero-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-text span {
+    width: 100%;
+  }
+
+  .hero-image {
+    width: 100%;
+  }
+
+  .hero img {
+    width: 15rem;
+    height: 18rem;
+  }
+
+  .contato > div:first-child,
+  .contato > div:last-child {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .projetos-header h2,
+  .habilidades-header h2 {
+    font-size: 1.8rem;
+  }
+
+  .projetos-grid,
+  .habilidades-container {
+    grid-template-columns: 1fr;
+  }
+
+  .habilidades-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .inputs-prins {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .navlinks {
+    gap: 1rem;
+    font-size: 0.9rem;
+  }
 }
