@@ -7,7 +7,6 @@ const translations = {
     "nav.home": "Inicio",
     "nav.projects": "Projetos",
     "nav.skills": "Habilidades",
-    "nav.experience": "Experiencia",
     "nav.contact": "Contato",
     "nav.hire": "Contrate-me",
 
@@ -17,7 +16,6 @@ const translations = {
     "hero.description":
       "Desenvolvo experiencias digitais com foco em resultado, performance e clareza visual.",
     "hero.ctaProjects": "Ver Projetos",
-    "hero.ctaJourney": "Minha Trajetoria",
     "hero.exp": "anos de experiencia",
 
     "skills.title": "Minhas Habilidades",
@@ -27,33 +25,10 @@ const translations = {
     "projects.title": "Projetos Selecionados",
     "projects.subtitle":
       "Uma amostra de produtos criados para web e negocios digitais.",
-    "projects.badgeWeb": "Web App",
-    "projects.badgeUi": "UI Design",
-    "projects.badgeSaas": "SaaS",
-    "projects.card1desc":
-      "Dashboard com indicadores em tempo real para times comerciais.",
-    "projects.card2desc":
-      "Site institucional com foco em conversao e identidade forte.",
-    "projects.card3desc":
-      "Plataforma para automacao de processos internos de operacao.",
-    "projects.details": "Ver detalhes",
     "projects.githubTitle": "Repositorios do GitHub",
     "projects.repoDetails": "Ver repositorio",
     "projects.repoNoDescription": "Sem descricao disponivel.",
     "projects.repoError": "Nao foi possivel carregar os repositorios agora.",
-
-    "experience.title": "Experiencia Profissional",
-    "experience.subtitle":
-      "Linha do tempo de evolucao tecnica e impacto em projetos.",
-    "experience.item1role": "Desenvolvedor Full Stack",
-    "experience.item1desc":
-      "Criacao de plataformas web responsivas e integradas com APIs.",
-    "experience.item2role": "Desenvolvedor Front-End",
-    "experience.item2desc":
-      "Construcao de interfaces modernas com foco em usabilidade.",
-    "experience.item3role": "Estagiario de Tecnologia",
-    "experience.item3desc":
-      "Apoio no desenvolvimento de sistemas internos e prototipos.",
 
     "education.title": "Educacao",
     "education.subtitle": "Formacao academica e especializacoes continuas.",
@@ -94,7 +69,6 @@ const translations = {
     "nav.home": "Home",
     "nav.projects": "Projects",
     "nav.skills": "Skills",
-    "nav.experience": "Experience",
     "nav.contact": "Contact",
     "nav.hire": "Hire Me",
 
@@ -104,7 +78,6 @@ const translations = {
     "hero.description":
       "I build digital experiences focused on results, performance and visual clarity.",
     "hero.ctaProjects": "View Projects",
-    "hero.ctaJourney": "My Journey",
     "hero.exp": "years of experience",
 
     "skills.title": "My Skills",
@@ -113,29 +86,10 @@ const translations = {
     "projects.title": "Selected Projects",
     "projects.subtitle":
       "A sample of products built for web and digital business.",
-    "projects.badgeWeb": "Web App",
-    "projects.badgeUi": "UI Design",
-    "projects.badgeSaas": "SaaS",
-    "projects.card1desc": "Real-time analytics dashboard for commercial teams.",
-    "projects.card2desc":
-      "Institutional website focused on conversion and strong identity.",
-    "projects.card3desc": "Platform for internal operations automation.",
-    "projects.details": "View details",
     "projects.githubTitle": "GitHub Repositories",
     "projects.repoDetails": "View repository",
     "projects.repoNoDescription": "No description available.",
     "projects.repoError": "Could not load repositories right now.",
-
-    "experience.title": "Professional Experience",
-    "experience.subtitle": "Timeline of technical growth and project impact.",
-    "experience.item1role": "Full Stack Developer",
-    "experience.item1desc":
-      "Built responsive web platforms integrated with APIs.",
-    "experience.item2role": "Front-End Developer",
-    "experience.item2desc": "Created modern interfaces focused on usability.",
-    "experience.item3role": "Technology Intern",
-    "experience.item3desc":
-      "Supported internal systems and prototype development.",
 
     "education.title": "Education",
     "education.subtitle": "Academic background and continuous specialization.",
