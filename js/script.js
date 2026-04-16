@@ -20,7 +20,22 @@ const translations = {
 
     "skills.title": "Minhas Habilidades",
     "skills.subtitle":
-      "Tecnologias que uso para transformar ideias em produtos reais.",
+      "Stacks organizadas por area para construir produtos digitais completos.",
+    "skills.category.frontend": "Front-end",
+    "skills.category.frontendDesc":
+      "Interfaces modernas, responsivas e focadas em usabilidade.",
+    "skills.category.backend": "Back-end",
+    "skills.category.backendDesc":
+      "APIs e regras de negocio com foco em desempenho e manutencao.",
+    "skills.category.mobile": "Mobile",
+    "skills.category.mobileDesc":
+      "Desenvolvimento de interfaces mobile multiplataforma.",
+    "skills.category.database": "Banco de Dados",
+    "skills.category.databaseDesc":
+      "Modelagem e consultas para dados relacionais.",
+    "skills.category.tools": "Ferramentas",
+    "skills.category.toolsDesc":
+      "Fluxo de trabalho, versionamento e design de interfaces.",
 
     "projects.title": "Projetos Selecionados",
     "projects.subtitle":
@@ -89,7 +104,23 @@ const translations = {
     "hero.exp": "years of experience",
 
     "skills.title": "My Skills",
-    "skills.subtitle": "Technologies I use to turn ideas into real products.",
+    "skills.subtitle":
+      "Stacks organized by area to build complete digital products.",
+    "skills.category.frontend": "Front-end",
+    "skills.category.frontendDesc":
+      "Modern and responsive interfaces focused on usability.",
+    "skills.category.backend": "Back-end",
+    "skills.category.backendDesc":
+      "APIs and business logic focused on performance and maintainability.",
+    "skills.category.mobile": "Mobile",
+    "skills.category.mobileDesc":
+      "Cross-platform mobile interface development.",
+    "skills.category.database": "Databases",
+    "skills.category.databaseDesc":
+      "Modeling and querying relational data efficiently.",
+    "skills.category.tools": "Tools",
+    "skills.category.toolsDesc":
+      "Workflow, version control and interface design tooling.",
 
     "projects.title": "Selected Projects",
     "projects.subtitle":
