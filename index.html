@@ -16,15 +16,6 @@
     <header class="navbar" id="topo">
       <nav class="container nav-content" aria-label="Navegacao principal">
         <a href="#inicio" class="logo">PORTFOLIO</a>
-
-        <button
-          id="menu-toggle"
-          class="icon-btn menu-toggle"
-          aria-label="Abrir menu"
-        >
-          ☰
-        </button>
-
         <div id="nav-links" class="nav-links">
           <a href="#inicio" data-i18n="nav.home">Inicio</a>
           <a href="#projetos" data-i18n="nav.projects">Projetos</a>
@@ -32,7 +23,6 @@
 
           <a href="#contato" data-i18n="nav.contact">Contato</a>
         </div>
-
         <div class="nav-actions">
           <button
             id="language-toggle"
@@ -48,6 +38,13 @@
             >Contrate-me</a
           >
         </div>
+        <button
+          id="menu-toggle"
+          class="icon-btn menu-toggle"
+          aria-label="Abrir menu"
+        >
+          ☰
+        </button>
       </nav>
     </header>
 
@@ -83,10 +80,10 @@
               alt="Foto de perfil"
               class="profile-image"
             />
-            <div class="floating-card">
+            <!-- <div class="floating-card">
               <strong>5+</strong>
               <span data-i18n="hero.exp">anos de experiencia</span>
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
@@ -136,6 +133,74 @@
             <p data-i18n="projects.subtitle">
               Uma amostra de produtos criados para web e negocios digitais.
             </p>
+          </div>
+
+          <div class="featured-projects" aria-label="Projetos em destaque">
+            <article class="featured-project-card project-card--nutripet">
+              <img
+                class="project-card-image"
+                src="assets/Nutri_Pet_1.png"
+                alt="Imagem ilustrativa do projeto NutriPet"
+                loading="lazy"
+              />
+              <div class="project-card-content">
+                <h3 data-i18n="projects.featured.nutripet.title">NutriPet</h3>
+                <p data-i18n="projects.featured.nutripet.description">
+                  Site para venda do dispenser inteligente NutriPet, focado em
+                  facilitar a alimentacao de pets com tecnologia e praticidade.
+                </p>
+                <div class="project-card-actions">
+                  <a
+                    href="https://nutripet-nine.vercel.app/index.html"
+                    class="btn btn-primary"
+                    target="_blank"
+                    data-i18n="projects.featured.viewProject"
+                    >Ver projeto</a
+                  >
+                  <a
+                    href="https://github.com/franciscopepino/nutripet"
+                    class="btn btn-outline"
+                    target="_blank"
+                    data-i18n="projects.featured.viewRepo"
+                    >Ver repositorio</a
+                  >
+                </div>
+              </div>
+            </article>
+
+            <article class="featured-project-card project-card--memory">
+              <img
+                class="project-card-image"
+                src="assets/jogoDaMemoria.jfif"
+                alt="Imagem ilustrativa do projeto Jogo da Memoria"
+                loading="lazy"
+              />
+              <div class="project-card-content">
+                <h3 data-i18n="projects.featured.memory.title">
+                  Jogo da Memoria
+                </h3>
+                <p data-i18n="projects.featured.memory.description">
+                  Um jogo da memoria interativo desenvolvido para treinar
+                  raciocinio e concentracao, com interface simples e divertida.
+                </p>
+                <div class="project-card-actions">
+                  <a
+                    href="https://francisco-simoes-oliveira.github.io/jogoDaMemoria/"
+                    class="btn btn-primary"
+                    target="_blank"
+                    data-i18n="projects.featured.viewProject"
+                    >Ver projeto</a
+                  >
+                  <a
+                    href="https://github.com/francisco-simoes-oliveira/jogoDaMemoria"
+                    class="btn btn-outline"
+                    target="_blank"
+                    data-i18n="projects.featured.viewRepo"
+                    >Ver repositorio</a
+                  >
+                </div>
+              </div>
+            </article>
           </div>
 
           <div class="github-wrapper">

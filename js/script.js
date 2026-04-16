@@ -25,6 +25,14 @@ const translations = {
     "projects.title": "Projetos Selecionados",
     "projects.subtitle":
       "Uma amostra de produtos criados para web e negocios digitais.",
+    "projects.featured.nutripet.title": "NutriPet",
+    "projects.featured.nutripet.description":
+      "Site para venda do dispenser inteligente NutriPet, focado em facilitar a alimentacao de pets com tecnologia e praticidade.",
+    "projects.featured.memory.title": "Jogo da Memoria",
+    "projects.featured.memory.description":
+      "Um jogo da memoria interativo desenvolvido para treinar raciocinio e concentracao, com interface simples e divertida.",
+    "projects.featured.viewProject": "Ver projeto",
+    "projects.featured.viewRepo": "Ver repositorio",
     "projects.githubTitle": "Repositorios do GitHub",
     "projects.repoDetails": "Ver repositorio",
     "projects.repoNoDescription": "Sem descricao disponivel.",
@@ -86,6 +94,14 @@ const translations = {
     "projects.title": "Selected Projects",
     "projects.subtitle":
       "A sample of products built for web and digital business.",
+    "projects.featured.nutripet.title": "NutriPet",
+    "projects.featured.nutripet.description":
+      "Landing page for the NutriPet smart feeder, focused on making pet feeding easier with technology and practicality.",
+    "projects.featured.memory.title": "Memory Game",
+    "projects.featured.memory.description":
+      "An interactive memory game designed to train reasoning and concentration, with a simple and playful interface.",
+    "projects.featured.viewProject": "View project",
+    "projects.featured.viewRepo": "View repository",
     "projects.githubTitle": "GitHub Repositories",
     "projects.repoDetails": "View repository",
     "projects.repoNoDescription": "No description available.",
